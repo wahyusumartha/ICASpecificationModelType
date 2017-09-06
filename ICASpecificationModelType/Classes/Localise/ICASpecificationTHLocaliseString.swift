@@ -1,0 +1,65 @@
+//
+//  ICASpecificationTHLocaliseString.swift
+//  Pods
+//
+//  Created by Wahyu Sumartha on 06/09/2017.
+//
+//
+
+import Foundation
+
+struct ICASpecificationTHLocaliseString: ICASpecificationLocaliseType {
+  let cylinders: String = "ลูกสูบ"
+  let doors: String = "ประตู"
+  let bore: String = "Bore"
+  let stroke: String = "Stroke"
+  let compressionRatio: String = "อัตราส่วนกำลังอัด"
+  let seatCapacity: String = "จำนวนที่นั่ง"
+  let peakPower: String = "กำลังสูงสุด"
+  let horsePower: String = "แรงม้า"
+  let peakTorque: String = "แรงบิดสูงสุด"
+  let fuelConsumption: String = "อัตราสิ้นเปลืองเชื้อเพลิง (ลิตร/100 กม)"
+  let co2Emission: String = "การปล่อยก๊าซคาร์บอนไดออกไซด์"
+  let gearNumber: String = "จำนวนเกียร์"
+  let steeringTurn: String = "Steering Turn"
+  let steeringRadius: String = "รัศมีวงเลี้ยว"
+  let length: String = "ความยาว (มม.)"
+  let width: String = "ความกว้าง (มม.)"
+  let height: String = "ความสูง (มม.)"
+  let wheelBase: String = "ระยะฐานล้อ (มม.)"
+  let frontTread: String = "Front Tread"
+  let rearTread: String = "Rear Tread"
+  let frontOverhang: String = "Front Overhang"
+  let rearOverhang: String = "Rear Overhang"
+  let groundClearance: String = "ระยะความสูงจากพื้น"
+  let kerbWeight: String = "น้ำหนักรวม"
+  let boot: String = "Boot"
+  let fuelTank: String = "ถังเชื้อเพลิง"
+  let duration: String = "อัตราเร่งระหว่าง 0-100 กม/ชม"
+  let topSpeed: String = "ความเร็วสูงสุด"
+  let dryWeight: String = "น้ำหนักสุทธิ"
+  let seatHeight: String = "ความสูงที่นั่ง"
+  let engineModel: String = "รุ่นเครื่องยนต์"
+  let powerRPMFrom: String = "Power RPM From"
+  let torqueRPMFrom: String = "Torque RPM From"
+  let torqueRPMTo: String = "Torque RPM To"
+  let engineType: String = "ประเภทเครื่องยนต์"
+  let directInjection: String = "หัวฉีด"
+  let aspiration: String = "Aspiration"
+  let gearBoxType: String = "ประเภทเกียร์"
+  let finalDriveRatio: String = "อัตราทดเฟืองท้าย"
+  let drivenWheel: String = "ระบบขับเคลื่อน"
+  let frontBrakes: String = "เบรกหน้า"
+  let rearBrakes: String = "เบรคหลัง"
+  let frontSuspension: String = "ระบบกันสะเทือนหน้า"
+  let rearSuspension: String = "Rear Suspension"
+  let steeringType: String = "ประเภทพวงมาลัย"
+  let frontTyre: String = "ยางหน้า"
+  let rearTyre: String = "ยางหลัง"
+  let frontRim: String = "ล้อหน้า"
+  let rearRim: String = "ขนาดล้อหลัง"
+  let assembled: String = "Assembled"
+  let fuelType: String = "ประเภทเชื้อเพลิง"
+  let coolingType: String = "ระบบระบายความร้อน"
+  let wheelsType: String = "ประเภทล้อ"
+}

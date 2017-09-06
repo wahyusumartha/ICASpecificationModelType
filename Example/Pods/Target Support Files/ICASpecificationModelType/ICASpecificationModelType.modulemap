@@ -1,0 +1,6 @@
+framework module ICASpecificationModelType {
+  umbrella header "ICASpecificationModelType-umbrella.h"
+
+  export *
+  module * { export * }
+}

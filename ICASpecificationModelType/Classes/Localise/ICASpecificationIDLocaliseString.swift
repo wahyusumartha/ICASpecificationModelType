@@ -1,0 +1,65 @@
+//
+//  ICASpecificationIDLocaliseString.swift
+//  Pods
+//
+//  Created by Wahyu Sumartha on 06/09/2017.
+//
+//
+
+import Foundation
+
+struct ICASpecificationIDLocaliseString: ICASpecificationLocaliseType {
+  let cylinders: String = "Silinder"
+  let doors: String = "Pintu"
+  let bore: String = "Bore"
+  let stroke: String = "Stroke"
+  let compressionRatio: String = "Rasio Kompresi"
+  let seatCapacity: String = "Kapasitas Penumpangd"
+  let peakPower: String = "Tenaga Maksimum"
+  let horsePower: String = "Horse Power"
+  let peakTorque: String = "Tenaga Puncak(hp)"
+  let fuelConsumption: String = "Konsumsi Bahan Bakar (L/100 km)"
+  let co2Emission: String = "Emisi"
+  let gearNumber: String = "Jumlah Gir"
+  let steeringTurn: String = "Putaran Kemudi"
+  let steeringRadius: String = "Radius Putar"
+  let length: String = "Panjang (mm)"
+  let width: String = "Lebar (mm)"
+  let height: String = "Tinggi (mm)"
+  let wheelBase: String = "Sumbu Roda (mm)"
+  let frontTread: String = "Lebar Ban Depan"
+  let rearTread: String = "Lebar Ban Belakang"
+  let frontOverhang: String = "Overhang Depan"
+  let rearOverhang: String = "Overhang Belakang"
+  let groundClearance: String = "Jarak Ke Tanah"
+  let kerbWeight: String = "Berat Kendaraan (kg)"
+  let boot: String = "Bagasi"
+  let fuelTank: String = "Tangki Bahan Bakar"
+  let duration: String = "Durasi 0-100 km/h"
+  let topSpeed: String = "Kecepatan Puncak"
+  let dryWeight: String = "Berat Kosong (kg)"
+  let seatHeight: String = "Tinggi Kursi"
+  let engineModel: String = "Model Mesin"
+  let powerRPMFrom: String = "Power RPM Dari"
+  let torqueRPMFrom: String = "Torque RPM Dari"
+  let torqueRPMTo: String = "Torque RPM Ke"
+  let engineType: String = "Tipe Mesin"
+  let directInjection: String = "Injeksi Langsung"
+  let aspiration: String = "Aspirasi Mesin"
+  let gearBoxType: String = "Tipe Gear Box"
+  let finalDriveRatio: String = "Rasio Gigi Akhir"
+  let drivenWheel: String = "Roda Penggerak"
+  let frontBrakes: String = "Rem Depan"
+  let rearBrakes: String = "Rem Belakang"
+  let frontSuspension: String = "Suspensi Depan"
+  let rearSuspension: String = "Suspensi Belakang"
+  let steeringType: String = "Tipe Sistem Kemudi"
+  let frontTyre: String = "Ukuran Ban Depan"
+  let rearTyre: String = "Ukuran Ban Belakang"
+  let frontRim: String = "Ukuran Velg Depan"
+  let rearRim: String = "Ukuran Velg Belakang"
+  let assembled: String = "Dirakit Di"
+  let fuelType: String = "Tipe Bahan Bakar"
+  let coolingType: String = "Tipe Pendingin"
+  let wheelsType: String = "Tipe Roda"
+}

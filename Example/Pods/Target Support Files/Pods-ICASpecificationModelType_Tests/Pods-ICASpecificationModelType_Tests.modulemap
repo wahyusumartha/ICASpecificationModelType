@@ -1,0 +1,6 @@
+framework module Pods_ICASpecificationModelType_Tests {
+  umbrella header "Pods-ICASpecificationModelType_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
