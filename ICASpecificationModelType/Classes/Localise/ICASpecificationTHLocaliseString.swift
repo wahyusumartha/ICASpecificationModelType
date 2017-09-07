@@ -63,4 +63,5 @@ struct ICASpecificationTHLocaliseString: ICASpecificationLocaliseType {
   let coolingType: String = "ระบบระบายความร้อน"
   let wheelsType: String = "ประเภทล้อ"
   let engineCC: String = "Engine CC"
+  let transmission: String = "Transmission"
 }

@@ -63,6 +63,7 @@ enum ICASpecificationModelType: String {
   case coolingType = "cooling_type"
   case wheelsType = "wheels_type"
   case engineCC = "engine_cc"
+  case transmission = "transmission"
 }
 
 public struct ICAspecificationModel {
@@ -129,6 +130,7 @@ public struct ICAspecificationModel {
       case .coolingType: return localiseType.coolingType
       case .wheelsType: return localiseType.wheelsType
       case .engineCC: return localiseType.engineCC
+      case .transmission: return localiseType.transmission
       }
     } else {
       return ""
