@@ -62,4 +62,5 @@ protocol ICASpecificationLocaliseType {
   var fuelType: String { get }
   var coolingType: String { get }
   var wheelsType: String { get }
+  var engineCC: String { get }
 }

@@ -104,6 +104,8 @@
 		DCEE854E62441E78FED15CC994497F61 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E793A8549531332D1762623F08F9BF /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		E3BD9291CFEC55A2AF141FE034BFEA92 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C14CA30770ECA99AC2E8582C5D3C4DB /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5CCEF0B83F8272D10671C01AAE4FFA0 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA367A34E0B8C1B01749CCC12FD43C5 /* NimbleXCTestHandler.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		EBA185341F5FF04700BDCAC4 /* ICASpecificationModelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA185331F5FF04700BDCAC4 /* ICASpecificationModelConfig.swift */; };
+		EBA185361F5FF0F600BDCAC4 /* ICASpecificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA185351F5FF0F600BDCAC4 /* ICASpecificationModel.swift */; };
 		EBA52C16F42E42A1824D87C284F4A60C /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B5EB32452EE8123EA3E65FDC81622 /* PostNotification.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		EBB7D1051F5FDD0F00226055 /* ICASpecificationLocaliseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB7D1041F5FDD0F00226055 /* ICASpecificationLocaliseType.swift */; };
 		EBB7D1071F5FE01E00226055 /* ICASpecificationENLocaliseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB7D1061F5FE01E00226055 /* ICASpecificationENLocaliseString.swift */; };
@@ -278,6 +280,8 @@
 		DFABEEB10F2E9D33C12ECA566D5947A1 /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
 		E15A0E5C2D8902D8B3F11BE86DE704B8 /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
 		E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EBA185331F5FF04700BDCAC4 /* ICASpecificationModelConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICASpecificationModelConfig.swift; sourceTree = "<group>"; };
+		EBA185351F5FF0F600BDCAC4 /* ICASpecificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICASpecificationModel.swift; sourceTree = "<group>"; };
 		EBB7D1041F5FDD0F00226055 /* ICASpecificationLocaliseType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICASpecificationLocaliseType.swift; sourceTree = "<group>"; };
 		EBB7D1061F5FE01E00226055 /* ICASpecificationENLocaliseString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICASpecificationENLocaliseString.swift; sourceTree = "<group>"; };
 		EBB7D1081F5FE02900226055 /* ICASpecificationIDLocaliseString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICASpecificationIDLocaliseString.swift; sourceTree = "<group>"; };
@@ -571,6 +575,7 @@
 		CAFBC47FA72CD894E7A9A0F9E31E25B5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EBA185321F5FEFF500BDCAC4 /* Model */,
 				EBB7D1031F5FDCFC00226055 /* Localise */,
 			);
 			path = Classes;
@@ -592,6 +597,15 @@
 			);
 			name = "Pods-ICASpecificationModelType_Tests";
 			path = "Target Support Files/Pods-ICASpecificationModelType_Tests";
+			sourceTree = "<group>";
+		};
+		EBA185321F5FEFF500BDCAC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBA185331F5FF04700BDCAC4 /* ICASpecificationModelConfig.swift */,
+				EBA185351F5FF0F600BDCAC4 /* ICASpecificationModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		EBB7D1031F5FDCFC00226055 /* Localise */ = {
@@ -924,7 +938,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				90CD7535974FF1EBE1D5C2CE12ABBAAA /* ICASpecificationModelType-dummy.m in Sources */,
+				EBA185341F5FF04700BDCAC4 /* ICASpecificationModelConfig.swift in Sources */,
 				EBB7D1071F5FE01E00226055 /* ICASpecificationENLocaliseString.swift in Sources */,
+				EBA185361F5FF0F600BDCAC4 /* ICASpecificationModel.swift in Sources */,
 				EBB7D10B1F5FE03200226055 /* ICASpecificationTHLocaliseString.swift in Sources */,
 				EBB7D1051F5FDD0F00226055 /* ICASpecificationLocaliseType.swift in Sources */,
 				EBB7D1091F5FE02900226055 /* ICASpecificationIDLocaliseString.swift in Sources */,

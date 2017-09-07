@@ -62,4 +62,5 @@ struct ICASpecificationENLocaliseString: ICASpecificationLocaliseType {
   let fuelType: String = "Fuel Type"
   let coolingType: String = "Cooling Type"
   let wheelsType: String = "Wheels Type"
+  let engineCC: String = "Engine CC"
 }
